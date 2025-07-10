@@ -1,0 +1,178 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover{
+
+  background: #2A7B9B;
+background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+
+/* header style  */
+
+.header{
+ background-image: url('../Assets/Hero-bg.png');
+ background-repeat: no-repeat;
+ height: 680px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px ;
+}
+
+
+
+.header-logo{
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.header-title-content{
+    text-align: center;
+  
+
+}
+
+.header-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+
+/* main style  */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-content-one{
+  background-color: rgb(253, 244, 232);
+  display: flex;
+  justify-content: space-between;
+  height: 330px;
+  gap: 30px;
+  border-radius: 20px;
+  margin-top: 100px;
+  
+}
+
+.section-title{
+    margin: 30px 10px 30px;
+    padding: 20px;
+
+}
+.section-heading{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+
+.section-description{
+   color: #757575;
+   font-size: 22px;
+   font-weight: 300;
+}
+
+
+.section-image img{
+    border-radius: 25px;
+}
+
+
+
+.section-content-two{
+    background-color: #d8d8ec;
+    padding: 40px 70px;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+
+.section-two-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: black;
+}
+
+.viewport{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.viewport h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.viewport p{
+    color: #757575;
+    margin-top: 40px;
+}
+
+.section-three-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.rview-content{
+    display: flex;
+     justify-content: space-around;
+     gap: 30px;
+}
+
+.rview{
+     background-color: rgb(252, 254, 255);
+        box-shadow: 4px 6px 10px rgb(114, 109, 109);
+        border-radius: 20px;
+        padding: 18px;
+
+
+}
+
+.rview-deteles{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+} 
+.rview p{
+    color: #757575;
+}
+.text-color{
+    color: #757575;
+    margin: 0;
+    font-size: 12px;
+
+
+}
+.rview-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+
+
+

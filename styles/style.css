@@ -214,16 +214,64 @@ main {
     display: flex;
     margin: 40px auto;
     justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 0 70px;
+    gap: auto;
+    
 
+}
+ 
+.form-title h2{
+    font-size: 90px;
+    font-weight: bold;
+    color: black;
+    /* margin: 0 auto; */
+    
+
+}
+
+.form-content{
+    padding: 70px 0;
+    margin: 0 auto;
 }
 
 main input[type="email"],
 main input[type="name"],
 main input[type="textarea"]{
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 12px 20px;
     display: block;
     border: none;
+    height: 30px;
+    margin: 10px 0;
+    width: 100%;
+    
+
+}
+
+.textarea{
+    border: none;
+}
+
+/* footer style  */
+
+.footer-content{
+    justify-content: center;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+nav ul li{
+        list-style: none;
 
 }
